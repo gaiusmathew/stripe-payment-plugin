@@ -6,7 +6,7 @@
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/c0ldfront/ngrok-vendure-plugin.git"
+    "url": "git+https://github.com/c0ldfront/stripe-vendure-plugin.git"
   },
   "bugs": {
     "url": "https://github.com/c0ldfront/stripe-vendure-plugin/issues"
