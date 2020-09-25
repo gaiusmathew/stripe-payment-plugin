@@ -1,6 +1,6 @@
 import { OnVendureBootstrap, PluginCommonModule, RuntimeVendureConfig, VendurePlugin } from '@vendure/core';
 
-import { INestApplication } from '@nestjs/common';
+import { INestApplication, Type } from '@nestjs/common';
 import { json } from 'body-parser';
 
 import cloneBuffer from 'clone-buffer';
@@ -13,7 +13,7 @@ import { RawBodyIncomingMessage } from './interfaces';
  */
 @VendurePlugin({
     imports: [PluginCommonModule],
-    providers: [],
+    controllers: [],
 
     configuration: (config: RuntimeVendureConfig) => {
         config.paymentOptions.paymentMethodHandlers.push(stripePaymentMethodHandler);
