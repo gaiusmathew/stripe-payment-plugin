@@ -1,6 +1,6 @@
 # Stripe VendureIO plugin
 
-This plugin enables payments to be processed by [Stripe](https://www.stripe.com/).
+This plugin enables payments to be processed by stripe [Stripe](https://www.stripe.com/).
 
 ## Requirements
 
@@ -57,3 +57,5 @@ pay() {
 ```
 
 ## Usage
+
+Big thanks to https://github.com/c0ldfront/stripe-vendure-plugin for this plugins base version

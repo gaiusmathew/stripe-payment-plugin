@@ -1,18 +1,18 @@
 {
-  "name": "@c0ldfront/stripe-vendure-plugin",
+  "name": "@gaiusmathew/stripe-payment-plugin",
   "version": "1.0.0",
-  "description": "A vendure io stripe payment provider plugin.",
+  "description": "A plugin for making stripe payments in vendure platform.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/c0ldfront/stripe-vendure-plugin.git"
+    "url": "git+https://github.com/gaiusmathew/stripe-payment-plugin"
   },
   "bugs": {
-    "url": "https://github.com/c0ldfront/stripe-vendure-plugin/issues"
+    "url": "https://github.com/gaiusmathew/stripe-payment-plugin/issues"
   },
-  "homepage": "https://github.com/c0ldfront/stripe-vendure-plugin/blob/master/README.md",
-  "author": "David Mydlarz <dcmydlarz@gmail.com>",
+  "homepage": "https://github.com/gaiusmathew/stripe-payment-plugin#stripe-plugin-vendure",
+  "author": "Gaius Mathew <gaiusmatheww@gmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
