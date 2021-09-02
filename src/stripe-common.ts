@@ -9,7 +9,7 @@ export function getGateway(args: PaymentMethodArgsHash): Stripe {
         appInfo: {
             name: 'VendureIOStripePlugin',
             version: '1.0.0',
-            url: 'https://github.com/c0ldfront/stripe-vendure-plugin',
+            url: 'https://github.com/gaiusmathew/stripe-payment-plugin',
         },
     });
 }
